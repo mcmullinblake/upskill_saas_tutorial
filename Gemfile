@@ -50,6 +50,9 @@ gem 'bootstrap-sass', '3.3.7'
 #Use Font Awesome Sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+#Use Hirb gem for better console data presentation
+gem 'hirb', '0.7.3'
+
 group :production do
   #Use PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
